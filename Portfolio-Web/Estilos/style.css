@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif, Arial;
+}
+body {
+    background-color: #444;
+    color: whitesmoke;
+}
+header {
+    background-color: #222;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    background-color: gold;
+    color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+img {
+    width: 200px;
+}
+aside {
+    display: flex;
+    margin-top: 80px;
+    background-color: gold;
+    color: #222;
+    border-radius: 8px;
+}
+aside > p {
+    margin-top: 45px;
+}
+main {
+   width: 600px;
+   margin: 0 auto; 
+}
+main > section.sobre > p {
+    text-align: justify;
+    margin: 30px 0px;
+}
+main > section > h2 {
+    margin: 20px 0px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+}
+h3 {
+    margin: 10px 0px;
+}
+main > section.habilidades > ul > li {
+    margin: 5px 0px;
+    list-style-type: none;
+}
+strong {
+    color: gold;
+}
+li {
+    list-style-type: none;
+}
